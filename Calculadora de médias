@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+//Calculadora de notas escolares 
+
+ Int main(){
+
+ int nota1 , nota2 , media;
+
+     printf ("\t\t \n cálculo da média \t\n");
+
+          scanf ("\n %i%i", &nota1, &nota2);
+
+    media = (nota1 + nota2)/2;
+
+       if (media >= 7) 
+           { printf ("aprovado \n", media);
+            
+            }
+      else if ( media <= 3) 
+          { printf(" reprovado\n", media);
+
+          }
+    else if ((media>= 3) && (media<=7)) {
+        {  printf (" prova final \n",media);
+         }
+return 0;
+ }
