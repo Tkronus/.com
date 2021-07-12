@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main (){
+
+    printf(" CALCULADORA ELETRÔNICA \n");
+
+    printf(" insira três números para calcular \n");
+   
+    int num1, num2,num3, soma, subt, mult, div;
+       scanf("%i%i%i" , &num1, &num2, &num3);
+    
+    soma = num1 + num2 + num3;
+    subt = num1 - num2 -num3;
+    mult = num1 * num2 * num3;
+    div = num1 / num2 / num3;
+    
+    printf(" A soma é: %i \n", soma);
+    printf (" a subtração é: %i \n", subt);
+    printf("A multplicação é: %i \n", mult);
+    printf(" A divisão é: %i \n", div);
+    
+    return 0;
+}
