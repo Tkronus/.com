@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+Int main() {
+
+int ij, id;
+    ij=17;
+    id=50;
+    
+    int idade = 0;
+    
+    printf ("digite uma idade:\n\n ");
+       scanf("%i", &idade);
+    
+     if (idade <= ij)
+        { 
+        printf(" \n jovem");
+        }
+          else if ( idade >= id)
+          {
+             printf(" \n idoso\n ");
+          }
+          else if (( idade > ij) && ( idade <id))
+        
+            { printf(" meia idade");
+            } 
+   return 0; 
+}
